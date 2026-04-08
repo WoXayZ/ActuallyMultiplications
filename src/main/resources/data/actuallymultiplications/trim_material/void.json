@@ -1,0 +1,9 @@
+{
+  "asset_name": "void",
+  "description": {
+    "color": "#5A2D82",
+    "translate": "trim_material.actuallymultiplications.void"
+  },
+  "ingredient": "actuallyadditions:void_crystal",
+  "item_model_index": 0.04
+}

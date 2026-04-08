@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "actuallymultiplications:item/enori_leggings_restonia_trim",
+      "predicate": {
+        "trim_type": 0.01
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_palis_trim",
+      "predicate": {
+        "trim_type": 0.02
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_diamatine_trim",
+      "predicate": {
+        "trim_type": 0.03
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_void_trim",
+      "predicate": {
+        "trim_type": 0.04
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_emeradic_trim",
+      "predicate": {
+        "trim_type": 0.05
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_enori_trim",
+      "predicate": {
+        "trim_type": 0.06
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_black_quartz_trim",
+      "predicate": {
+        "trim_type": 0.07
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_netherite_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_diamond_darker_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/enori_leggings_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "actuallymultiplications:item/enori_leggings"
+  }
+}

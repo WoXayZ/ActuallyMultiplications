@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:palis_axe"
+    },
+    {
+      "item": "actuallymultiplications:palis_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:palis_sword"
+    },
+    {
+      "item": "actuallymultiplications:palis_shovel"
+    },
+    {
+      "item": "actuallymultiplications:palis_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:palis_aiot",
+    "count": 1
+  }
+}

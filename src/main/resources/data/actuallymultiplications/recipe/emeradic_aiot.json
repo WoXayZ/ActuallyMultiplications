@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:emeradic_axe"
+    },
+    {
+      "item": "actuallymultiplications:emeradic_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:emeradic_sword"
+    },
+    {
+      "item": "actuallymultiplications:emeradic_shovel"
+    },
+    {
+      "item": "actuallymultiplications:emeradic_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:emeradic_aiot",
+    "count": 1
+  }
+}

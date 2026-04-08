@@ -1,0 +1,9 @@
+{
+  "asset_name": "black_quartz",
+  "description": {
+    "color": "#2D2D34",
+    "translate": "trim_material.actuallymultiplications.black_quartz"
+  },
+  "ingredient": "actuallyadditions:black_quartz",
+  "item_model_index": 0.07
+}

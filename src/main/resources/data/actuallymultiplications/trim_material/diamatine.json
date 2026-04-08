@@ -1,0 +1,9 @@
+{
+  "asset_name": "diamatine",
+  "description": {
+    "color": "#55EDED",
+    "translate": "trim_material.actuallymultiplications.diamatine"
+  },
+  "ingredient": "actuallyadditions:diamatine_crystal",
+  "item_model_index": 0.03
+}

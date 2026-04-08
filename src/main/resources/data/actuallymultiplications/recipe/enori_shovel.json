@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "#",
+    "#"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:enori_crystal"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:enori_shovel",
+    "count": 1
+  }
+}

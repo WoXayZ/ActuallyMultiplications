@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:black_quartz"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:black_quartz_helmet",
+    "count": 1
+  }
+}

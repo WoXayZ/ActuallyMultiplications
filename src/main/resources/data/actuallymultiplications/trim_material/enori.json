@@ -1,0 +1,9 @@
+{
+  "asset_name": "enori",
+  "description": {
+    "color": "#E1E1EB",
+    "translate": "trim_material.actuallymultiplications.enori"
+  },
+  "ingredient": "actuallyadditions:enori_crystal",
+  "item_model_index": 0.06
+}

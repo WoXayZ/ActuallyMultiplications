@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:black_quartz_axe"
+    },
+    {
+      "item": "actuallymultiplications:black_quartz_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:black_quartz_sword"
+    },
+    {
+      "item": "actuallymultiplications:black_quartz_shovel"
+    },
+    {
+      "item": "actuallymultiplications:black_quartz_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:black_quartz_aiot",
+    "count": 1
+  }
+}

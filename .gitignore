@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+
+# NeoForge / environnement de jeu local
+run/
+runs/
+
+# IDE
+eclipse/
+out/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Dossiers temporaires locaux
+tmp_textures/

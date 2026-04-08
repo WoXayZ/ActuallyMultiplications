@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "actuallymultiplications:item/palis_boots_restonia_trim",
+      "predicate": {
+        "trim_type": 0.01
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_palis_trim",
+      "predicate": {
+        "trim_type": 0.02
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_diamatine_trim",
+      "predicate": {
+        "trim_type": 0.03
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_void_trim",
+      "predicate": {
+        "trim_type": 0.04
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_emeradic_trim",
+      "predicate": {
+        "trim_type": 0.05
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_enori_trim",
+      "predicate": {
+        "trim_type": 0.06
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_black_quartz_trim",
+      "predicate": {
+        "trim_type": 0.07
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_netherite_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_diamond_darker_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "actuallymultiplications:item/palis_boots_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "actuallymultiplications:item/palis_boots"
+  }
+}

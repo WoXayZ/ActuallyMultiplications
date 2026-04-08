@@ -1,0 +1,9 @@
+{
+  "asset_name": "restonia",
+  "description": {
+    "color": "#C83737",
+    "translate": "trim_material.actuallymultiplications.restonia"
+  },
+  "ingredient": "actuallyadditions:restonia_crystal",
+  "item_model_index": 0.01
+}
