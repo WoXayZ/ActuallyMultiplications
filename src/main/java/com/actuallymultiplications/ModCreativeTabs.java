@@ -46,6 +46,9 @@ public final class ModCreativeTabs {
                                 ModItems.BLACK_QUARTZ_HELMET, ModItems.BLACK_QUARTZ_CHESTPLATE, ModItems.BLACK_QUARTZ_LEGGINGS, ModItems.BLACK_QUARTZ_BOOTS,
                                 ModToolItems.BLACK_QUARTZ_SHOVEL, ModToolItems.BLACK_QUARTZ_PICKAXE, ModToolItems.BLACK_QUARTZ_AXE, ModToolItems.BLACK_QUARTZ_HOE,
                                 ModToolItems.BLACK_QUARTZ_SWORD, ModToolItems.BLACK_QUARTZ_AIOT);
+                        for (var blockItem : ModEtheticQuartzBlocks.allBlockItemsView()) {
+                            output.accept(blockItem.get());
+                        }
                     })
                     .build());
 

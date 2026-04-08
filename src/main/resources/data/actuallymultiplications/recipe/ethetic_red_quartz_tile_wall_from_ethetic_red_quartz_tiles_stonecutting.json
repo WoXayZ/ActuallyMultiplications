@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "actuallymultiplications:ethetic_red_quartz_tiles"
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:ethetic_red_quartz_tile_wall"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "actuallymultiplications:ethetic_magenta_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:ethetic_magenta_quartz_wall"
+  }
+}

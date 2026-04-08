@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actuallymultiplications:block/ethetic_green_quartz_pillar_slab"
+    },
+    "type=double": {
+      "model": "actuallymultiplications:block/ethetic_green_quartz_pillar"
+    },
+    "type=top": {
+      "model": "actuallymultiplications:block/ethetic_green_quartz_pillar_slab_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "actuallymultiplications:chiseled_ethetic_purple_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:chiseled_ethetic_purple_quartz_slab"
+  }
+}

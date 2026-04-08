@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "actuallymultiplications:block/ethetic_orange_quartz"
+  }
+}

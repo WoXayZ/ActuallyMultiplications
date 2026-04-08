@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "actuallymultiplications:block/ethetic_light_gray_quartz_pillar_top",
+    "side": "actuallymultiplications:block/ethetic_light_gray_quartz_pillar_side"
+  }
+}

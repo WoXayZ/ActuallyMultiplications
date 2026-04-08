@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "actuallymultiplications:ethetic_yellow_quartz_tiles"
+    }
+  },
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "result": {
+    "count": 4,
+    "id": "actuallymultiplications:ethetic_yellow_quartz_bricks"
+  }
+}

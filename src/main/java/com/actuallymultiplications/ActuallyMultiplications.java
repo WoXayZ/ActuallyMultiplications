@@ -17,6 +17,7 @@ public final class ActuallyMultiplications {
     }
 
     public ActuallyMultiplications(IEventBus modEventBus, ModContainer container) {
+        ModEtheticQuartzBlocks.BLOCKS.register(modEventBus);
         ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);

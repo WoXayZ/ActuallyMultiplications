@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "actuallymultiplications:block/ethetic_blue_quartz_pillar_side"
+  }
+}

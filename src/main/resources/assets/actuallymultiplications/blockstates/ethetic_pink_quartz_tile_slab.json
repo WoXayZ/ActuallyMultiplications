@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actuallymultiplications:block/ethetic_pink_quartz_tile_slab"
+    },
+    "type=double": {
+      "model": "actuallymultiplications:block/ethetic_pink_quartz_tiles"
+    },
+    "type=top": {
+      "model": "actuallymultiplications:block/ethetic_pink_quartz_tile_slab_top"
+    }
+  }
+}

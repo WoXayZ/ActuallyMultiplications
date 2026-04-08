@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "actuallymultiplications:ethetic_lime_quartz_pillar"
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:ethetic_lime_quartz_pillar_wall"
+  }
+}

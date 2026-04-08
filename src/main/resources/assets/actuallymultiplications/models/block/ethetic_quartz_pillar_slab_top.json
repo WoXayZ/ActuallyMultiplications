@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "actuallymultiplications:block/ethetic_quartz_pillar_side",
+    "side": "actuallymultiplications:block/ethetic_quartz_pillar_side",
+    "top": "actuallymultiplications:block/ethetic_quartz_pillar_side"
+  }
+}

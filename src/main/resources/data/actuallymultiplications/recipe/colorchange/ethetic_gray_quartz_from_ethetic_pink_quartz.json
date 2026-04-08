@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:color_change",
+  "ingredient": {
+    "item": "actuallymultiplications:ethetic_pink_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:ethetic_gray_quartz"
+  }
+}
