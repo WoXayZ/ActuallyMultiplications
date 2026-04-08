@@ -6,7 +6,11 @@ license="MIT"
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-description='''Adds armor and tools themed around Actually Additions (Diamatine, etc.).'''
+authors="${mod_authors}"
+credits="Inspired by Ellpeck's Actually Additions (textures / theme). Requires Actually Additions."
+displayURL="${mod_display_url}"
+issueTrackerURL="${mod_issue_tracker_url}"
+description='''Armor, tools, and All-In-One tools for Actually Additions materials (Diamatine, Emeradic, Black Quartz, Void, and more), including armor trims and set bonuses. Minecraft ${minecraft_version}.'''
 
 [[dependencies.${mod_id}]]
 modId="neoforge"

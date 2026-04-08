@@ -16,14 +16,10 @@ import org.slf4j.Logger;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Full set (4 pièces) : effets configurables dans {@code armor_set_effects-server.toml}.
- */
 public final class ArmorSetBonusHandler {
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    /** Durée suffisante pour éviter le clignotement entre deux ticks. */
     private static final int REFRESH_TICKS = 220;
 
     private static final Set<String> LOGGED_UNKNOWN_EFFECTS = ConcurrentHashMap.newKeySet();

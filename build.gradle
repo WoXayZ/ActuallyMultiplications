@@ -8,7 +8,7 @@ tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
 }
 
-version = "$mod_version+mc${game_version}"
+version = "${game_version}-${mod_version}"
 group = 'com.actuallymultiplications'
 
 base {
@@ -76,6 +76,9 @@ var generateModMetadata = tasks.register('generateModMetadata', ProcessResources
             mod_id                    : 'actuallymultiplications',
             mod_name                  : 'Actually Multiplications',
             mod_version               : mod_version,
+            mod_authors               : mod_authors,
+            mod_display_url           : mod_display_url,
+            mod_issue_tracker_url     : mod_issue_tracker_url,
     ]
     inputs.properties replaceProperties
     expand replaceProperties

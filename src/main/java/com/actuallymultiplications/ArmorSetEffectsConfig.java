@@ -2,10 +2,6 @@ package com.actuallymultiplications;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-/**
- * Bonus full set : par palier, activer/désactiver, id d'effet (registry), amplificateur (0 = niveau I).
- * Fichier : {@code world/serverconfig/armor_set_effects-server.toml} (type SERVER).
- */
 public final class ArmorSetEffectsConfig {
 
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();

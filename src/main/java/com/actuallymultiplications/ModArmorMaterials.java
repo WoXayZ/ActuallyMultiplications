@@ -21,7 +21,6 @@ public final class ModArmorMaterials {
     public static final DeferredRegister<ArmorMaterial> ARMOR_MATERIALS =
             DeferredRegister.create(Registries.ARMOR_MATERIAL, ActuallyMultiplications.MOD_ID);
 
-    /** Diamond +1 (3/8/6/3 → 4/9/7/4). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> DIAMATINE =
             register("diamatine", 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F,
                     "diamatine_armor_repair_materials",
@@ -33,7 +32,6 @@ public final class ModArmorMaterials {
                     "emeradic_armor_repair_materials",
                     5, 8, 10, 5, 13);
 
-    /** Iron +1 (2/6/5/2 → 3/7/6/3). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ENORI =
             register("enori", 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F,
                     "enori_armor_repair_materials",
@@ -45,7 +43,6 @@ public final class ModArmorMaterials {
                     "palis_armor_repair_materials",
                     2, 5, 6, 3, 10);
 
-    /** Same stats as Palis (chainmail +0.5). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> RESTONIA =
             register("restonia", 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F,
                     "restonia_armor_repair_materials",
@@ -57,7 +54,6 @@ public final class ModArmorMaterials {
                     "void_armor_repair_materials",
                     1, 4, 5, 2, 9);
 
-    /** Iron (2/6/5/2). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> BLACK_QUARTZ =
             register("black_quartz", 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F,
                     "black_quartz_armor_repair_materials",

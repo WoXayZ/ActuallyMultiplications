@@ -10,105 +10,57 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.List;
 
-/**
- * Outils cristal : mêmes {@link ModToolTier} que les armures. Enregistrés sur {@link ModItems#ITEMS}.
- */
 public final class ModToolItems {
 
-    public static final DeferredItem<Item> DIAMATINE_SHOVEL =
-            ModItems.ITEMS.registerItem("diamatine_shovel", p -> new ShovelItem(ModToolTier.DIAMATINE, p));
-    public static final DeferredItem<Item> DIAMATINE_PICKAXE =
-            ModItems.ITEMS.registerItem("diamatine_pickaxe", p -> new PickaxeItem(ModToolTier.DIAMATINE, p));
-    public static final DeferredItem<Item> DIAMATINE_AXE =
-            ModItems.ITEMS.registerItem("diamatine_axe", p -> new AxeItem(ModToolTier.DIAMATINE, p));
-    public static final DeferredItem<Item> DIAMATINE_HOE =
-            ModItems.ITEMS.registerItem("diamatine_hoe", p -> new HoeItem(ModToolTier.DIAMATINE, p));
-    public static final DeferredItem<Item> DIAMATINE_SWORD =
-            ModItems.ITEMS.registerItem("diamatine_sword", p -> new SwordItem(ModToolTier.DIAMATINE, p));
-    public static final DeferredItem<Item> DIAMATINE_AIOT =
-            ModItems.ITEMS.registerItem("diamatine_aiot", p -> new CrystalAllInOneTool(ModToolTier.DIAMATINE, p));
+    public static final DeferredItem<Item> DIAMATINE_SHOVEL = registerShovel(ModToolTier.DIAMATINE, "diamatine_shovel");
+    public static final DeferredItem<Item> DIAMATINE_PICKAXE = registerPickaxe(ModToolTier.DIAMATINE, "diamatine_pickaxe");
+    public static final DeferredItem<Item> DIAMATINE_AXE = registerAxe(ModToolTier.DIAMATINE, "diamatine_axe");
+    public static final DeferredItem<Item> DIAMATINE_HOE = registerHoe(ModToolTier.DIAMATINE, "diamatine_hoe");
+    public static final DeferredItem<Item> DIAMATINE_SWORD = registerSword(ModToolTier.DIAMATINE, "diamatine_sword");
+    public static final DeferredItem<Item> DIAMATINE_AIOT = registerAiot(ModToolTier.DIAMATINE, "diamatine_aiot");
 
-    public static final DeferredItem<Item> EMERADIC_SHOVEL =
-            ModItems.ITEMS.registerItem("emeradic_shovel", p -> new ShovelItem(ModToolTier.EMERADIC, p));
-    public static final DeferredItem<Item> EMERADIC_PICKAXE =
-            ModItems.ITEMS.registerItem("emeradic_pickaxe", p -> new PickaxeItem(ModToolTier.EMERADIC, p));
-    public static final DeferredItem<Item> EMERADIC_AXE =
-            ModItems.ITEMS.registerItem("emeradic_axe", p -> new AxeItem(ModToolTier.EMERADIC, p));
-    public static final DeferredItem<Item> EMERADIC_HOE =
-            ModItems.ITEMS.registerItem("emeradic_hoe", p -> new HoeItem(ModToolTier.EMERADIC, p));
-    public static final DeferredItem<Item> EMERADIC_SWORD =
-            ModItems.ITEMS.registerItem("emeradic_sword", p -> new SwordItem(ModToolTier.EMERADIC, p));
-    public static final DeferredItem<Item> EMERADIC_AIOT =
-            ModItems.ITEMS.registerItem("emeradic_aiot", p -> new CrystalAllInOneTool(ModToolTier.EMERADIC, p));
+    public static final DeferredItem<Item> EMERADIC_SHOVEL = registerShovel(ModToolTier.EMERADIC, "emeradic_shovel");
+    public static final DeferredItem<Item> EMERADIC_PICKAXE = registerPickaxe(ModToolTier.EMERADIC, "emeradic_pickaxe");
+    public static final DeferredItem<Item> EMERADIC_AXE = registerAxe(ModToolTier.EMERADIC, "emeradic_axe");
+    public static final DeferredItem<Item> EMERADIC_HOE = registerHoe(ModToolTier.EMERADIC, "emeradic_hoe");
+    public static final DeferredItem<Item> EMERADIC_SWORD = registerSword(ModToolTier.EMERADIC, "emeradic_sword");
+    public static final DeferredItem<Item> EMERADIC_AIOT = registerAiot(ModToolTier.EMERADIC, "emeradic_aiot");
 
-    public static final DeferredItem<Item> ENORI_SHOVEL =
-            ModItems.ITEMS.registerItem("enori_shovel", p -> new ShovelItem(ModToolTier.ENORI, p));
-    public static final DeferredItem<Item> ENORI_PICKAXE =
-            ModItems.ITEMS.registerItem("enori_pickaxe", p -> new PickaxeItem(ModToolTier.ENORI, p));
-    public static final DeferredItem<Item> ENORI_AXE =
-            ModItems.ITEMS.registerItem("enori_axe", p -> new AxeItem(ModToolTier.ENORI, p));
-    public static final DeferredItem<Item> ENORI_HOE =
-            ModItems.ITEMS.registerItem("enori_hoe", p -> new HoeItem(ModToolTier.ENORI, p));
-    public static final DeferredItem<Item> ENORI_SWORD =
-            ModItems.ITEMS.registerItem("enori_sword", p -> new SwordItem(ModToolTier.ENORI, p));
-    public static final DeferredItem<Item> ENORI_AIOT =
-            ModItems.ITEMS.registerItem("enori_aiot", p -> new CrystalAllInOneTool(ModToolTier.ENORI, p));
+    public static final DeferredItem<Item> ENORI_SHOVEL = registerShovel(ModToolTier.ENORI, "enori_shovel");
+    public static final DeferredItem<Item> ENORI_PICKAXE = registerPickaxe(ModToolTier.ENORI, "enori_pickaxe");
+    public static final DeferredItem<Item> ENORI_AXE = registerAxe(ModToolTier.ENORI, "enori_axe");
+    public static final DeferredItem<Item> ENORI_HOE = registerHoe(ModToolTier.ENORI, "enori_hoe");
+    public static final DeferredItem<Item> ENORI_SWORD = registerSword(ModToolTier.ENORI, "enori_sword");
+    public static final DeferredItem<Item> ENORI_AIOT = registerAiot(ModToolTier.ENORI, "enori_aiot");
 
-    public static final DeferredItem<Item> PALIS_SHOVEL =
-            ModItems.ITEMS.registerItem("palis_shovel", p -> new ShovelItem(ModToolTier.PALIS, p));
-    public static final DeferredItem<Item> PALIS_PICKAXE =
-            ModItems.ITEMS.registerItem("palis_pickaxe", p -> new PickaxeItem(ModToolTier.PALIS, p));
-    public static final DeferredItem<Item> PALIS_AXE =
-            ModItems.ITEMS.registerItem("palis_axe", p -> new AxeItem(ModToolTier.PALIS, p));
-    public static final DeferredItem<Item> PALIS_HOE =
-            ModItems.ITEMS.registerItem("palis_hoe", p -> new HoeItem(ModToolTier.PALIS, p));
-    public static final DeferredItem<Item> PALIS_SWORD =
-            ModItems.ITEMS.registerItem("palis_sword", p -> new SwordItem(ModToolTier.PALIS, p));
-    public static final DeferredItem<Item> PALIS_AIOT =
-            ModItems.ITEMS.registerItem("palis_aiot", p -> new CrystalAllInOneTool(ModToolTier.PALIS, p));
+    public static final DeferredItem<Item> PALIS_SHOVEL = registerShovel(ModToolTier.PALIS, "palis_shovel");
+    public static final DeferredItem<Item> PALIS_PICKAXE = registerPickaxe(ModToolTier.PALIS, "palis_pickaxe");
+    public static final DeferredItem<Item> PALIS_AXE = registerAxe(ModToolTier.PALIS, "palis_axe");
+    public static final DeferredItem<Item> PALIS_HOE = registerHoe(ModToolTier.PALIS, "palis_hoe");
+    public static final DeferredItem<Item> PALIS_SWORD = registerSword(ModToolTier.PALIS, "palis_sword");
+    public static final DeferredItem<Item> PALIS_AIOT = registerAiot(ModToolTier.PALIS, "palis_aiot");
 
-    public static final DeferredItem<Item> RESTONIA_SHOVEL =
-            ModItems.ITEMS.registerItem("restonia_shovel", p -> new ShovelItem(ModToolTier.RESTONIA, p));
-    public static final DeferredItem<Item> RESTONIA_PICKAXE =
-            ModItems.ITEMS.registerItem("restonia_pickaxe", p -> new PickaxeItem(ModToolTier.RESTONIA, p));
-    public static final DeferredItem<Item> RESTONIA_AXE =
-            ModItems.ITEMS.registerItem("restonia_axe", p -> new AxeItem(ModToolTier.RESTONIA, p));
-    public static final DeferredItem<Item> RESTONIA_HOE =
-            ModItems.ITEMS.registerItem("restonia_hoe", p -> new HoeItem(ModToolTier.RESTONIA, p));
-    public static final DeferredItem<Item> RESTONIA_SWORD =
-            ModItems.ITEMS.registerItem("restonia_sword", p -> new SwordItem(ModToolTier.RESTONIA, p));
-    public static final DeferredItem<Item> RESTONIA_AIOT =
-            ModItems.ITEMS.registerItem("restonia_aiot", p -> new CrystalAllInOneTool(ModToolTier.RESTONIA, p));
+    public static final DeferredItem<Item> RESTONIA_SHOVEL = registerShovel(ModToolTier.RESTONIA, "restonia_shovel");
+    public static final DeferredItem<Item> RESTONIA_PICKAXE = registerPickaxe(ModToolTier.RESTONIA, "restonia_pickaxe");
+    public static final DeferredItem<Item> RESTONIA_AXE = registerAxe(ModToolTier.RESTONIA, "restonia_axe");
+    public static final DeferredItem<Item> RESTONIA_HOE = registerHoe(ModToolTier.RESTONIA, "restonia_hoe");
+    public static final DeferredItem<Item> RESTONIA_SWORD = registerSword(ModToolTier.RESTONIA, "restonia_sword");
+    public static final DeferredItem<Item> RESTONIA_AIOT = registerAiot(ModToolTier.RESTONIA, "restonia_aiot");
 
-    public static final DeferredItem<Item> VOID_SHOVEL =
-            ModItems.ITEMS.registerItem("void_shovel", p -> new ShovelItem(ModToolTier.VOID, p));
-    public static final DeferredItem<Item> VOID_PICKAXE =
-            ModItems.ITEMS.registerItem("void_pickaxe", p -> new PickaxeItem(ModToolTier.VOID, p));
-    public static final DeferredItem<Item> VOID_AXE =
-            ModItems.ITEMS.registerItem("void_axe", p -> new AxeItem(ModToolTier.VOID, p));
-    public static final DeferredItem<Item> VOID_HOE =
-            ModItems.ITEMS.registerItem("void_hoe", p -> new HoeItem(ModToolTier.VOID, p));
-    public static final DeferredItem<Item> VOID_SWORD =
-            ModItems.ITEMS.registerItem("void_sword", p -> new SwordItem(ModToolTier.VOID, p));
-    public static final DeferredItem<Item> VOID_AIOT =
-            ModItems.ITEMS.registerItem("void_aiot", p -> new CrystalAllInOneTool(ModToolTier.VOID, p));
+    public static final DeferredItem<Item> VOID_SHOVEL = registerShovel(ModToolTier.VOID, "void_shovel");
+    public static final DeferredItem<Item> VOID_PICKAXE = registerPickaxe(ModToolTier.VOID, "void_pickaxe");
+    public static final DeferredItem<Item> VOID_AXE = registerAxe(ModToolTier.VOID, "void_axe");
+    public static final DeferredItem<Item> VOID_HOE = registerHoe(ModToolTier.VOID, "void_hoe");
+    public static final DeferredItem<Item> VOID_SWORD = registerSword(ModToolTier.VOID, "void_sword");
+    public static final DeferredItem<Item> VOID_AIOT = registerAiot(ModToolTier.VOID, "void_aiot");
 
-    public static final DeferredItem<Item> BLACK_QUARTZ_SHOVEL =
-            ModItems.ITEMS.registerItem("black_quartz_shovel", p -> new ShovelItem(ModToolTier.BLACK_QUARTZ, p));
-    public static final DeferredItem<Item> BLACK_QUARTZ_PICKAXE =
-            ModItems.ITEMS.registerItem("black_quartz_pickaxe", p -> new PickaxeItem(ModToolTier.BLACK_QUARTZ, p));
-    public static final DeferredItem<Item> BLACK_QUARTZ_AXE =
-            ModItems.ITEMS.registerItem("black_quartz_axe", p -> new AxeItem(ModToolTier.BLACK_QUARTZ, p));
-    public static final DeferredItem<Item> BLACK_QUARTZ_HOE =
-            ModItems.ITEMS.registerItem("black_quartz_hoe", p -> new HoeItem(ModToolTier.BLACK_QUARTZ, p));
-    public static final DeferredItem<Item> BLACK_QUARTZ_SWORD =
-            ModItems.ITEMS.registerItem("black_quartz_sword", p -> new SwordItem(ModToolTier.BLACK_QUARTZ, p));
-    public static final DeferredItem<Item> BLACK_QUARTZ_AIOT =
-            ModItems.ITEMS.registerItem("black_quartz_aiot", p -> new CrystalAllInOneTool(ModToolTier.BLACK_QUARTZ, p));
+    public static final DeferredItem<Item> BLACK_QUARTZ_SHOVEL = registerShovel(ModToolTier.BLACK_QUARTZ, "black_quartz_shovel");
+    public static final DeferredItem<Item> BLACK_QUARTZ_PICKAXE = registerPickaxe(ModToolTier.BLACK_QUARTZ, "black_quartz_pickaxe");
+    public static final DeferredItem<Item> BLACK_QUARTZ_AXE = registerAxe(ModToolTier.BLACK_QUARTZ, "black_quartz_axe");
+    public static final DeferredItem<Item> BLACK_QUARTZ_HOE = registerHoe(ModToolTier.BLACK_QUARTZ, "black_quartz_hoe");
+    public static final DeferredItem<Item> BLACK_QUARTZ_SWORD = registerSword(ModToolTier.BLACK_QUARTZ, "black_quartz_sword");
+    public static final DeferredItem<Item> BLACK_QUARTZ_AIOT = registerAiot(ModToolTier.BLACK_QUARTZ, "black_quartz_aiot");
 
-    /**
-     * Ordre des paliers (cohérent avec l’onglet créatif) : restonia → palis → diamatine → void → emeradic → enori → black quartz.
-     */
     public static final List<DeferredItem<Item>> SHOVELS = List.of(
             RESTONIA_SHOVEL, PALIS_SHOVEL, DIAMATINE_SHOVEL, VOID_SHOVEL, EMERADIC_SHOVEL, ENORI_SHOVEL, BLACK_QUARTZ_SHOVEL
     );
@@ -127,6 +79,30 @@ public final class ModToolItems {
     public static final List<DeferredItem<Item>> AIOTS = List.of(
             RESTONIA_AIOT, PALIS_AIOT, DIAMATINE_AIOT, VOID_AIOT, EMERADIC_AIOT, ENORI_AIOT, BLACK_QUARTZ_AIOT
     );
+
+    private static DeferredItem<Item> registerShovel(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new ShovelItem(tier, tier.withShovel(p)));
+    }
+
+    private static DeferredItem<Item> registerPickaxe(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new PickaxeItem(tier, tier.withPickaxe(p)));
+    }
+
+    private static DeferredItem<Item> registerAxe(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new AxeItem(tier, tier.withAxe(p)));
+    }
+
+    private static DeferredItem<Item> registerHoe(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new HoeItem(tier, tier.withHoe(p)));
+    }
+
+    private static DeferredItem<Item> registerSword(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new SwordItem(tier, tier.withSword(p)));
+    }
+
+    private static DeferredItem<Item> registerAiot(ModToolTier tier, String id) {
+        return ModItems.ITEMS.registerItem(id, p -> new CrystalAllInOneTool(tier, p));
+    }
 
     private ModToolItems() {
     }

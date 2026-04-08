@@ -18,8 +18,6 @@ public final class ModCreativeTabs {
                     .title(Component.translatable("itemGroup.actuallymultiplications"))
                     .icon(() -> new ItemStack(ModItems.RESTONIA_CHESTPLATE.get()))
                     .displayItems((params, output) -> {
-                        // Par palier : casque → bottes → pelle → … → OTEU. Ordre des paliers :
-                        // restonia, palis, diamatine, void, emeradic, enori, black quartz
                         addTier(output,
                                 ModItems.RESTONIA_HELMET, ModItems.RESTONIA_CHESTPLATE, ModItems.RESTONIA_LEGGINGS, ModItems.RESTONIA_BOOTS,
                                 ModToolItems.RESTONIA_SHOVEL, ModToolItems.RESTONIA_PICKAXE, ModToolItems.RESTONIA_AXE, ModToolItems.RESTONIA_HOE,
@@ -51,7 +49,6 @@ public final class ModCreativeTabs {
                     })
                     .build());
 
-    /** Casque → plastron → jambières → bottes → pelle → pioche → hache → houe → épée → OTEU. */
     @SafeVarargs
     private static void addTier(CreativeModeTab.Output output, DeferredItem<?>... items) {
         for (DeferredItem<?> item : items) {

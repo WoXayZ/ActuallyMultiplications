@@ -21,7 +21,7 @@ public final class ActuallyMultiplications {
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
-        container.registerConfig(ModConfig.Type.SERVER, ArmorSetEffectsConfig.SPEC, "armor_set_effects.toml");
+        container.registerConfig(ModConfig.Type.COMMON, ArmorSetEffectsConfig.SPEC, "actuallymultiplications-common.toml");
 
         NeoForge.EVENT_BUS.addListener(ArmorSetBonusHandler::onPlayerTick);
     }
