@@ -1,4 +1,4 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.world.block.ethetic;
 
 import net.minecraft.world.level.material.MapColor;
 
@@ -33,7 +33,6 @@ public enum EtheticQuartzColor {
         return mapColor;
     }
 
-    /** Block id stem for smooth block and variant prefixes: {@code ethetic_<id>_quartz}. */
     public String stem() {
         return "ethetic_" + id + "_quartz";
     }

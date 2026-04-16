@@ -1,5 +1,11 @@
 package com.actuallymultiplications;
 
+import com.actuallymultiplications.config.ArmorSetEffectsConfig;
+import com.actuallymultiplications.event.ArmorSetBonusHandler;
+import com.actuallymultiplications.registry.ActuallyMultiplicationsArmorMaterials;
+import com.actuallymultiplications.registry.ActuallyMultiplicationsBlocks;
+import com.actuallymultiplications.registry.ActuallyMultiplicationsCreativeTabs;
+import com.actuallymultiplications.registry.ActuallyMultiplicationsItems;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -17,10 +23,10 @@ public final class ActuallyMultiplications {
     }
 
     public ActuallyMultiplications(IEventBus modEventBus, ModContainer container) {
-        ModEtheticQuartzBlocks.BLOCKS.register(modEventBus);
-        ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
-        ModItems.ITEMS.register(modEventBus);
-        ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        ActuallyMultiplicationsBlocks.BLOCKS.register(modEventBus);
+        ActuallyMultiplicationsArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
+        ActuallyMultiplicationsItems.ITEMS.register(modEventBus);
+        ActuallyMultiplicationsCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
         container.registerConfig(ModConfig.Type.COMMON, ArmorSetEffectsConfig.SPEC, "actuallymultiplications-common.toml");
 

@@ -1,4 +1,4 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.item;
 
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.tags.BlockTags;
@@ -28,7 +28,7 @@ public class CrystalAllInOneTool extends TieredItem {
             ItemAbilities.AXE_STRIP
     );
 
-    public CrystalAllInOneTool(ModToolTier tier, net.minecraft.world.item.Item.Properties properties) {
+    public CrystalAllInOneTool(ActuallyMultiplicationsToolTier tier, net.minecraft.world.item.Item.Properties properties) {
         super(
                 tier,
                 properties
@@ -38,7 +38,7 @@ public class CrystalAllInOneTool extends TieredItem {
         );
     }
 
-    private static Tool mergeMiningRules(ModToolTier tier) {
+    private static Tool mergeMiningRules(ActuallyMultiplicationsToolTier tier) {
         Tool pick = tier.createToolProperties(BlockTags.MINEABLE_WITH_PICKAXE);
         Tool shovel = tier.createToolProperties(BlockTags.MINEABLE_WITH_SHOVEL);
         Tool axe = tier.createToolProperties(BlockTags.MINEABLE_WITH_AXE);

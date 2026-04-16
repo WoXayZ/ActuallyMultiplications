@@ -1,5 +1,7 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.registry;
 
+import com.actuallymultiplications.ActuallyMultiplications;
+import com.actuallymultiplications.world.block.ethetic.EtheticQuartzColor;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -20,7 +22,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-public final class ModEtheticQuartzBlocks {
+public final class ActuallyMultiplicationsBlocks {
 
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(ActuallyMultiplications.MOD_ID);
@@ -67,7 +69,7 @@ public final class ModEtheticQuartzBlocks {
         }
     }
 
-    private ModEtheticQuartzBlocks() {
+    private ActuallyMultiplicationsBlocks() {
     }
 
     private static void addItems(QuartzFamily... families) {
@@ -137,7 +139,7 @@ public final class ModEtheticQuartzBlocks {
     }
 
     private static <B extends Block> DeferredItem<BlockItem> blockItem(String id, DeferredBlock<B> block) {
-        return ModItems.ITEMS.registerItem(id, p -> new BlockItem(block.get(), p));
+        return ActuallyMultiplicationsItems.ITEMS.registerItem(id, p -> new BlockItem(block.get(), p));
     }
 
     public record QuartzFamily(

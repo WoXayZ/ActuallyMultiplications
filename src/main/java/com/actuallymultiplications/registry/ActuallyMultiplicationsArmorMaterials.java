@@ -1,5 +1,6 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.registry;
 
+import com.actuallymultiplications.ActuallyMultiplications;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
@@ -16,7 +17,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.EnumMap;
 import java.util.List;
 
-public final class ModArmorMaterials {
+public final class ActuallyMultiplicationsArmorMaterials {
 
     public static final DeferredRegister<ArmorMaterial> ARMOR_MATERIALS =
             DeferredRegister.create(Registries.ARMOR_MATERIAL, ActuallyMultiplications.MOD_ID);
@@ -26,7 +27,6 @@ public final class ModArmorMaterials {
                     "diamatine_armor_repair_materials",
                     4, 7, 9, 4, 12);
 
-    /** Diamatine +0.5 per piece (rounded half up). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> EMERADIC =
             register("emeradic", 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F,
                     "emeradic_armor_repair_materials",
@@ -37,7 +37,6 @@ public final class ModArmorMaterials {
                     "enori_armor_repair_materials",
                     3, 6, 7, 3, 12);
 
-    /** Chainmail +0.5 (2/5/4/1 → 3/6/5/2). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> PALIS =
             register("palis", 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F,
                     "palis_armor_repair_materials",
@@ -48,7 +47,6 @@ public final class ModArmorMaterials {
                     "restonia_armor_repair_materials",
                     2, 5, 6, 3, 10);
 
-    /** Chainmail (2/5/4/1). */
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> VOID =
             register("void", 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F,
                     "void_armor_repair_materials",
@@ -106,6 +104,6 @@ public final class ModArmorMaterials {
         return TagKey.create(Registries.ITEM, ActuallyMultiplications.loc(path));
     }
 
-    private ModArmorMaterials() {
+    private ActuallyMultiplicationsArmorMaterials() {
     }
 }

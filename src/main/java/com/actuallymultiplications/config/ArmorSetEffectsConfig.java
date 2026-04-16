@@ -1,4 +1,4 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.config;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
 

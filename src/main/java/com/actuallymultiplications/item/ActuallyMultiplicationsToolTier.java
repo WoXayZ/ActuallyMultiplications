@@ -1,5 +1,6 @@
-package com.actuallymultiplications;
+package com.actuallymultiplications.item;
 
+import com.actuallymultiplications.ActuallyMultiplications;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
@@ -11,7 +12,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
 
-public enum ModToolTier implements Tier {
+public enum ActuallyMultiplicationsToolTier implements Tier {
 
     BLACK_QUARTZ(250, 6.0F, 2.0F, 14, BlockTags.INCORRECT_FOR_IRON_TOOL, "black_quartz_armor_repair_materials"),
     VOID(180, 5.0F, 1.0F, 12, BlockTags.INCORRECT_FOR_STONE_TOOL, "void_armor_repair_materials"),
@@ -28,7 +29,7 @@ public enum ModToolTier implements Tier {
     private final TagKey<Block> incorrectBlocksForDrops;
     private final TagKey<Item> repairTag;
 
-    ModToolTier(
+    ActuallyMultiplicationsToolTier(
             int uses,
             float speed,
             float attackDamageBonus,
