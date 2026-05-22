@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "M",
+    "#"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:restonia_crystal"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:restonia_sword",
+    "count": 1
+  }
+}

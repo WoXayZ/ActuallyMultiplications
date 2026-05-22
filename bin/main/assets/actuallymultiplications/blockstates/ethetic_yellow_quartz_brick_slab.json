@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actuallymultiplications:block/ethetic_yellow_quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "actuallymultiplications:block/ethetic_yellow_quartz_bricks"
+    },
+    "type=top": {
+      "model": "actuallymultiplications:block/ethetic_yellow_quartz_brick_slab_top"
+    }
+  }
+}

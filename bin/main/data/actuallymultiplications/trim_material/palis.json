@@ -1,0 +1,9 @@
+{
+  "asset_name": "palis",
+  "description": {
+    "color": "#8246C8",
+    "translate": "trim_material.actuallymultiplications.palis"
+  },
+  "ingredient": "actuallyadditions:palis_crystal",
+  "item_model_index": 0.02
+}

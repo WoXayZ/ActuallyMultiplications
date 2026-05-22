@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="actuallymultiplications"
+version="1.1"
+displayName="Actually Multiplications"
+authors="WoXayZ"
+credits="Inspired by Ellpeck's Actually Additions (textures / theme). Requires Actually Additions."
+displayURL="https://github.com/WoXayZ/ActuallyMultiplications"
+issueTrackerURL="https://github.com/WoXayZ/ActuallyMultiplications/issues"
+description='''Armor, tools, and All-In-One tools for Actually Additions materials (Diamatine, Emeradic, Black Quartz, Void, and more), including armor trims and set bonuses. Minecraft 1.21.1.'''
+
+[[dependencies.actuallymultiplications]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.actuallymultiplications]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.actuallymultiplications]]
+modId="actuallyadditions"
+type="required"
+versionRange="[1.3,)"
+ordering="NONE"
+side="BOTH"

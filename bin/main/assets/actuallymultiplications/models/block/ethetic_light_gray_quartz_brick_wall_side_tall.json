@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "actuallymultiplications:block/ethetic_light_gray_quartz_bricks"
+  }
+}

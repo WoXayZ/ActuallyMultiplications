@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actuallymultiplications:block/chiseled_ethetic_gray_quartz_slab"
+    },
+    "type=double": {
+      "model": "actuallymultiplications:block/chiseled_ethetic_gray_quartz"
+    },
+    "type=top": {
+      "model": "actuallymultiplications:block/chiseled_ethetic_gray_quartz_slab_top"
+    }
+  }
+}

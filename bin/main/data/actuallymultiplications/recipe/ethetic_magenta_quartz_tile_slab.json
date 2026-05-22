@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "actuallymultiplications:ethetic_magenta_quartz_tiles"
+    }
+  },
+  "pattern": [
+    "QQQ"
+  ],
+  "result": {
+    "count": 6,
+    "id": "actuallymultiplications:ethetic_magenta_quartz_tile_slab"
+  }
+}

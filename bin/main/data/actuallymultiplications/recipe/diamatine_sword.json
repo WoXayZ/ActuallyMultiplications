@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "M",
+    "M",
+    "#"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:diamatine_crystal"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:diamatine_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "actuallymultiplications:block/ethetic_red_quartz",
+    "side": "actuallymultiplications:block/ethetic_red_quartz",
+    "top": "actuallymultiplications:block/ethetic_red_quartz"
+  }
+}

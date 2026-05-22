@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:enori_crystal"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:enori_leggings",
+    "count": 1
+  }
+}

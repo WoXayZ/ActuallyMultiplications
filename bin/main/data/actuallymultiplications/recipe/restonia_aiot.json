@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:restonia_axe"
+    },
+    {
+      "item": "actuallymultiplications:restonia_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:restonia_sword"
+    },
+    {
+      "item": "actuallymultiplications:restonia_shovel"
+    },
+    {
+      "item": "actuallymultiplications:restonia_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:restonia_aiot",
+    "count": 1
+  }
+}

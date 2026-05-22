@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:diamatine_crystal"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:diamatine_boots",
+    "count": 1
+  }
+}

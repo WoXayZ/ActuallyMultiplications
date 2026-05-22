@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "actuallymultiplications:ethetic_light_blue_quartz_bricks"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 6,
+    "id": "actuallymultiplications:ethetic_light_blue_quartz_brick_wall"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "emeradic",
+  "description": {
+    "color": "#37C85F",
+    "translate": "trim_material.actuallymultiplications.emeradic"
+  },
+  "ingredient": "actuallyadditions:emeradic_crystal",
+  "item_model_index": 0.05
+}

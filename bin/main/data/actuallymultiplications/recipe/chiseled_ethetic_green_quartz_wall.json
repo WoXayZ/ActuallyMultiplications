@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "actuallymultiplications:chiseled_ethetic_green_quartz"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 6,
+    "id": "actuallymultiplications:chiseled_ethetic_green_quartz_wall"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:diamatine_axe"
+    },
+    {
+      "item": "actuallymultiplications:diamatine_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:diamatine_sword"
+    },
+    {
+      "item": "actuallymultiplications:diamatine_shovel"
+    },
+    {
+      "item": "actuallymultiplications:diamatine_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:diamatine_aiot",
+    "count": 1
+  }
+}

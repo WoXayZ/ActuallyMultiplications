@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "actuallymultiplications:block/chiseled_ethetic_lime_quartz_top",
+    "side": "actuallymultiplications:block/chiseled_ethetic_lime_quartz",
+    "top": "actuallymultiplications:block/chiseled_ethetic_lime_quartz_top"
+  }
+}

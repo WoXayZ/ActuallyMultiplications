@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MM",
+    "M#",
+    " #"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:palis_crystal"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:palis_axe",
+    "count": 1
+  }
+}

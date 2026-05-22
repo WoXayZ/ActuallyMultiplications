@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:enori_axe"
+    },
+    {
+      "item": "actuallymultiplications:enori_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:enori_sword"
+    },
+    {
+      "item": "actuallymultiplications:enori_shovel"
+    },
+    {
+      "item": "actuallymultiplications:enori_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:enori_aiot",
+    "count": 1
+  }
+}

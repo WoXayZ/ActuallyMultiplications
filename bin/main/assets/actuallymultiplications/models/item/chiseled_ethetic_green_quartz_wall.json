@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "actuallymultiplications:block/chiseled_ethetic_green_quartz"
+  }
+}

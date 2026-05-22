@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "actuallymultiplications:block/ethetic_orange_quartz_slab"
+    },
+    "type=double": {
+      "model": "actuallymultiplications:block/ethetic_orange_quartz"
+    },
+    "type=top": {
+      "model": "actuallymultiplications:block/ethetic_orange_quartz_slab_top"
+    }
+  }
+}

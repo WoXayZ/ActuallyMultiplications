@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "actuallymultiplications:ethetic_red_quartz_pillar"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 6,
+    "id": "actuallymultiplications:ethetic_red_quartz_pillar_wall"
+  }
+}

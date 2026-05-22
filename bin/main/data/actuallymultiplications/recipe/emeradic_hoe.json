@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MM",
+    " #",
+    " #"
+  ],
+  "key": {
+    "M": {
+      "item": "actuallyadditions:emeradic_crystal"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "actuallymultiplications:emeradic_hoe",
+    "count": 1
+  }
+}

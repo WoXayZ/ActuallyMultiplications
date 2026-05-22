@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "actuallymultiplications:ethetic_gray_quartz_tile_slab"
+    }
+  },
+  "pattern": [
+    "T",
+    "T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "actuallymultiplications:chiseled_ethetic_gray_quartz"
+  }
+}

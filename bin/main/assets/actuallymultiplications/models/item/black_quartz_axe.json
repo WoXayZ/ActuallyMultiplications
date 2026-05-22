@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "actuallymultiplications:item/black_quartz_axe"
+  }
+}

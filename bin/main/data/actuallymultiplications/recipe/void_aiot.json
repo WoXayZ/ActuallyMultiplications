@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "actuallymultiplications:void_axe"
+    },
+    {
+      "item": "actuallymultiplications:void_pickaxe"
+    },
+    {
+      "item": "actuallymultiplications:void_sword"
+    },
+    {
+      "item": "actuallymultiplications:void_shovel"
+    },
+    {
+      "item": "actuallymultiplications:void_hoe"
+    }
+  ],
+  "result": {
+    "id": "actuallymultiplications:void_aiot",
+    "count": 1
+  }
+}
